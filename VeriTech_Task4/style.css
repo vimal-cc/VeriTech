@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie,
+.series {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.movie img,
+.series img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie img:hover,
+.series img:hover {
+  transform: scale(1.05);
+}
+
+.movie p,
+.series p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.movie {
+  color: #1a1919;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contentDetail {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  margin-bottom: 55px;
+}
+
+.contentDetail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contentDetail img {
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contentDetail p {
+  color: #333;
+  font-style: oblique;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.contentDetail p:first-of-type {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
